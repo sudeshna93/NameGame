@@ -35,7 +35,7 @@ class PracticeModeViewController: UIViewController {
         return PictureService(networker)
     }()
     
-    
+    //MARK:Method: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Practice Mode"
@@ -80,6 +80,7 @@ class PracticeModeViewController: UIViewController {
         matchTheImage(sender: sender as! UIButton)
     }
     
+    //
     func chooseEmployees(){
         while sixEmployees.count < 6{
             if let emp = self.allemployees.randomElement(),

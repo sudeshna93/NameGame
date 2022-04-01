@@ -59,6 +59,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		E363889727F7C0F80042DE83 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E3031E2427F6735500A8E722 /* Extension+Buttons.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E3BAE53127E83E8E00574D07 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +86,7 @@
 		E3BAE53C27E83E8E00574D07 /* NameGame */ = {
 			isa = PBXGroup;
 			children = (
+				E363889727F7C0F80042DE83 /* Utilities */,
 				E32E57AA27EC34FC0062C250 /* Controller */,
 				E3BAE56927E9467300574D07 /* View */,
 				E3BAE56627E939C300574D07 /* Service */,
@@ -88,7 +97,6 @@
 				E3BAE54627E83E9B00574D07 /* Assets.xcassets */,
 				E3BAE54827E83E9B00574D07 /* LaunchScreen.storyboard */,
 				E3BAE54B27E83E9B00574D07 /* Info.plist */,
-				E3031E2427F6735500A8E722 /* Extension+Buttons.swift */,
 			);
 			path = NameGame;
 			sourceTree = "<group>";
