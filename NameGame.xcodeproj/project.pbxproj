@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3031E2527F6735500A8E722 /* Extension+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3031E2427F6735500A8E722 /* Extension+Buttons.swift */; };
+		E32E57A027EA40480062C250 /* TimedModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32E579F27EA40480062C250 /* TimedModeViewController.swift */; };
 		E3BAE53E27E83E8E00574D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE53D27E83E8E00574D07 /* AppDelegate.swift */; };
 		E3BAE54027E83E8E00574D07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE53F27E83E8E00574D07 /* SceneDelegate.swift */; };
 		E3BAE54227E83E8E00574D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE54127E83E8E00574D07 /* ViewController.swift */; };
 		E3BAE54527E83E8E00574D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BAE54327E83E8E00574D07 /* Main.storyboard */; };
 		E3BAE54727E83E9B00574D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BAE54627E83E9B00574D07 /* Assets.xcassets */; };
 		E3BAE54A27E83E9B00574D07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BAE54827E83E9B00574D07 /* LaunchScreen.storyboard */; };
+		E3BAE55427E83F1B00574D07 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE55327E83F1B00574D07 /* Name.swift */; };
+		E3BAE55727E844C000574D07 /* DecodableNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE55627E844C000574D07 /* DecodableNetwork.swift */; };
+		E3BAE55A27E84F4700574D07 /* PictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE55927E84F4700574D07 /* PictureService.swift */; };
+		E3BAE56127E8FB2800574D07 /* EmployeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE56027E8FB2800574D07 /* EmployeeController.swift */; };
+		E3BAE56427E9063700574D07 /* PracticeModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAE56327E9063700574D07 /* PracticeModeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3031E2427F6735500A8E722 /* Extension+Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Buttons.swift"; sourceTree = "<group>"; };
+		E32E579F27EA40480062C250 /* TimedModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedModeViewController.swift; sourceTree = "<group>"; };
 		E3BAE53A27E83E8E00574D07 /* NameGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BAE53D27E83E8E00574D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3BAE53F27E83E8E00574D07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		E3BAE54627E83E9B00574D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3BAE54927E83E9B00574D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3BAE54B27E83E9B00574D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BAE55327E83F1B00574D07 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		E3BAE55627E844C000574D07 /* DecodableNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableNetwork.swift; sourceTree = "<group>"; };
+		E3BAE55927E84F4700574D07 /* PictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureService.swift; sourceTree = "<group>"; };
+		E3BAE56027E8FB2800574D07 /* EmployeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeController.swift; sourceTree = "<group>"; };
+		E3BAE56327E9063700574D07 /* PracticeModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E32E57AA27EC34FC0062C250 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3BAE56027E8FB2800574D07 /* EmployeeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E3BAE53127E83E8E00574D07 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +78,46 @@
 		E3BAE53C27E83E8E00574D07 /* NameGame */ = {
 			isa = PBXGroup;
 			children = (
+				E32E57AA27EC34FC0062C250 /* Controller */,
+				E3BAE56927E9467300574D07 /* View */,
+				E3BAE56627E939C300574D07 /* Service */,
+				E3BAE55227E83F0000574D07 /* Model */,
 				E3BAE53D27E83E8E00574D07 /* AppDelegate.swift */,
 				E3BAE53F27E83E8E00574D07 /* SceneDelegate.swift */,
-				E3BAE54127E83E8E00574D07 /* ViewController.swift */,
 				E3BAE54327E83E8E00574D07 /* Main.storyboard */,
 				E3BAE54627E83E9B00574D07 /* Assets.xcassets */,
 				E3BAE54827E83E9B00574D07 /* LaunchScreen.storyboard */,
 				E3BAE54B27E83E9B00574D07 /* Info.plist */,
+				E3031E2427F6735500A8E722 /* Extension+Buttons.swift */,
 			);
 			path = NameGame;
+			sourceTree = "<group>";
+		};
+		E3BAE55227E83F0000574D07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3BAE55327E83F1B00574D07 /* Name.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3BAE56627E939C300574D07 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E3BAE55627E844C000574D07 /* DecodableNetwork.swift */,
+				E3BAE55927E84F4700574D07 /* PictureService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E3BAE56927E9467300574D07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3BAE56327E9063700574D07 /* PracticeModeViewController.swift */,
+				E32E579F27EA40480062C250 /* TimedModeViewController.swift */,
+				E3BAE54127E83E8E00574D07 /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BAE55A27E84F4700574D07 /* PictureService.swift in Sources */,
+				E3BAE56127E8FB2800574D07 /* EmployeeController.swift in Sources */,
+				E32E57A027EA40480062C250 /* TimedModeViewController.swift in Sources */,
 				E3BAE54227E83E8E00574D07 /* ViewController.swift in Sources */,
 				E3BAE53E27E83E8E00574D07 /* AppDelegate.swift in Sources */,
+				E3031E2527F6735500A8E722 /* Extension+Buttons.swift in Sources */,
+				E3BAE56427E9063700574D07 /* PracticeModeViewController.swift in Sources */,
+				E3BAE55427E83F1B00574D07 /* Name.swift in Sources */,
 				E3BAE54027E83E8E00574D07 /* SceneDelegate.swift in Sources */,
+				E3BAE55727E844C000574D07 /* DecodableNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
